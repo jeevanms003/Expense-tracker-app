@@ -35,4 +35,6 @@ Non-Functional Features:
 
 6)Cross-Platform: Built with Flutter for compatibility on iOS and Android.
 
-7)Key Technologies: Flutter, Provider, SQLite, Material 3, Poppins font, gradient animations, haptic feedback, internationalization, and InkWell for interactive ripple effects.
+Key Technologies: 
+
+Flutter, Provider, SQLite, Material 3, Poppins font, gradient animations, haptic feedback, internationalization, and InkWell for interactive ripple effects.
