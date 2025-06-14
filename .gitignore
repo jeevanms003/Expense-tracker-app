@@ -1,0 +1,162 @@
+# Flutter/Dart specific
+*.dart_tool/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+flutter_export_environment.sh
+flutter_build_*.log
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.packages
+*.lock
+
+# Environment variables
+.env
+.env.development
+.env.production
+.env.local
+*.env.*
+
+# Dependency directories
+packages/
+third_party/
+vendor/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.gen.dart
+*.graphql.dart
+*.chopper.dart
+*.mocks.dart
+
+# Coverage
+coverage/
+lcov.info
+
+# iOS specific
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flutter-plugin
+ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcworkspace
+ios/Runner/Info.plist
+ios/Runner/GoogleService-Info.plist
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/xcshareddata/
+ios/Runner.xcworkspace/xcuserdata/
+
+# Android specific
+android/.gradle/
+android/.idea/
+android/build/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/key.properties
+android/*.keystore
+android/*.jks
+android/app/build/
+android/app/release/
+android/app/debug/
+android/app/profile/
+android/app/src/main/res/values/google-services.json
+android/app/src/main/res/values-night/google-services.json
+
+# macOS specific
+.DS_Store
+*.swp
+*~.nib
+
+# Web specific
+web/favicon.png
+web/index.html
+web/manifest.json
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency lock files (if you want to manage them manually)
+pubspec.lock
+
+# Miscellaneous
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.pid
+*.seed
+*.pid.lock
+*.rdb
+Thumbs.db
+
+# Firebase
+.firebase/
+firestore.rules
+firestore.indexes.json
+firebase.json
+.firebaserc
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+
+# Test artifacts
+test/fixtures/
+test/output/
+test_coverage/
+*.test.dart
+*.e2e.dart
+
+# Local configuration files
+*.local
+local.properties
+*.local.dart
+*.local.yaml
+*.local.json
+
+# Documentation and miscellaneous
+docs/
+*.md.bak
+*.md~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Custom additions for sensitive files
+secrets.json
+credentials.json
+*.key
+*.pem
+*.cert
+*.pfx
+*.p12
